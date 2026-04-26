@@ -21,6 +21,7 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version-file: go-copyagentd/go.mod
+          cache-dependency-path: go-copyagentd/go.sum
 
       - name: Install Node dependencies
         run: npm ci

@@ -220,3 +220,4 @@ If a previous approach is replaced, record:
   - full LaunchAgent start/stop behavior still requires a real per-user macOS login session and should not be treated as fully proven by sandboxed tests alone
   - real Feishu/Lark delivery still requires user-owned app credentials and bot installation
   - the optional macOS UI builds successfully but still emits Swift 6 future-mode warnings around `AppState: Sendable`
+- Published the clean-history public repository and verified the first public CI run passed on `main`; adjusted the Go setup cache path to `go-copyagentd/go.sum` after GitHub Actions reported the root `go.sum` cache lookup was not applicable.
