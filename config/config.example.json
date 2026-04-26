@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "agent": {
+    "enabled": false,
+    "type": "codex",
+    "command": "codex",
+    "sessionMode": "persistent",
+    "idleTimeoutMins": 15
+  },
+  "host": "127.0.0.1",
+  "port": 8765,
+  "token": "change-me-long-random-token",
+  "mode": "feishu-bot",
+  "feishuAppId": "cli_xxxxxxxxxxxxxxxx",
+  "feishuAppSecret": "replace-with-your-feishu-app-secret",
+  "allowedActorIds": [],
+  "defaultDownloadDir": "~/Downloads/copyagent",
+  "imageAction": "clipboard",
+  "replyEnabled": true,
+  "actions": {
+    "clipboard": true,
+    "files": true,
+    "defaultDownloadDir": "~/Downloads/copyagent",
+    "imageAction": "clipboard"
+  },
+  "transports": {
+    "feishu": {
+      "enabled": true
+    },
+    "slack": {
+      "enabled": false
+    },
+    "telegram": {
+      "enabled": false
+    },
+    "dingtalk": {
+      "enabled": false
+    },
+    "discord": {
+      "enabled": false
+    },
+    "line": {
+      "enabled": false
+    },
+    "wechat-work": {
+      "enabled": false
+    },
+    "weixin": {
+      "enabled": false
+    },
+    "qq": {
+      "enabled": false
+    },
+    "qqbot": {
+      "enabled": false
+    },
+    "weibo": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="720" viewBox="0 0 1800 720" role="img" aria-labelledby="title desc">
+  <title id="title">copyagent custom C icon variants</title>
+  <desc id="desc">Three refined Apple-style custom C icon variants: minimal, dimensional, and system.</desc>
+  <defs>
+    <radialGradient id="bgMinimal" cx="34%" cy="18%" r="92%"><stop offset="0" stop-color="#6AF4FF"/><stop offset="0.32" stop-color="#2563EB"/><stop offset="0.68" stop-color="#1E1B4B"/><stop offset="1" stop-color="#050816"/></radialGradient>
+    <radialGradient id="bgDim" cx="28%" cy="12%" r="95%"><stop offset="0" stop-color="#B9FEFF"/><stop offset="0.22" stop-color="#26D9FF"/><stop offset="0.5" stop-color="#5B4DFF"/><stop offset="1" stop-color="#070617"/></radialGradient>
+    <radialGradient id="bgSystem" cx="45%" cy="10%" r="92%"><stop offset="0" stop-color="#A7F3D0"/><stop offset="0.28" stop-color="#38BDF8"/><stop offset="0.62" stop-color="#334155"/><stop offset="1" stop-color="#0B1020"/></radialGradient>
+    <radialGradient id="aurora" cx="18%" cy="8%" r="82%"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".38"/><stop offset=".38" stop-color="#67E8F9" stop-opacity=".22"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+    <linearGradient id="cMinimal" x1="120" y1="95" x2="450" y2="440" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".42" stop-color="#BFF7FF"/><stop offset="1" stop-color="#8B7DFF"/></linearGradient>
+    <linearGradient id="cDim" x1="100" y1="95" x2="455" y2="445" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".28" stop-color="#E0FCFF"/><stop offset=".62" stop-color="#54D9FF"/><stop offset="1" stop-color="#B794F6"/></linearGradient>
+    <linearGradient id="cSystem" x1="120" y1="90" x2="445" y2="430" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#F8FAFC"/><stop offset=".48" stop-color="#BAE6FD"/><stop offset="1" stop-color="#60A5FA"/></linearGradient>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="28" stdDeviation="26" flood-color="#020617" flood-opacity=".26"/></filter>
+    <filter id="glyphSoft" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity=".34"/><feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#67E8F9" flood-opacity=".2"/></filter>
+    <filter id="glyphDeep" x="-40%" y="-40%" width="180%" height="190%"><feDropShadow dx="0" dy="34" stdDeviation="28" flood-color="#020617" flood-opacity=".48"/><feDropShadow dx="0" dy="0" stdDeviation="24" flood-color="#67E8F9" flood-opacity=".32"/></filter>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="squircle"><rect x="0" y="0" width="420" height="420" rx="96"/></clipPath>
+    <style>
+      .title{font:800 30px -apple-system,BlinkMacSystemFont,"SF Pro Display",Inter,sans-serif;fill:#0F172A;text-anchor:middle;letter-spacing:-.03em}.subtitle{font:500 15px -apple-system,BlinkMacSystemFont,"SF Pro Text",Inter,sans-serif;fill:#64748B;text-anchor:middle}.name{font:800 25px -apple-system,BlinkMacSystemFont,"SF Pro Display",Inter,sans-serif;fill:#111827;text-anchor:middle;letter-spacing:-.03em}.desc{font:500 15px -apple-system,BlinkMacSystemFont,"SF Pro Text",Inter,sans-serif;fill:#64748B;text-anchor:middle}.stroke{fill:none;stroke-linecap:round;stroke-linejoin:round}.shine{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;opacity:.56}.dot{fill:#A3FF6A;filter:url(#glow)}
+    </style>
+  </defs>
+  <rect width="1800" height="720" fill="#F1F5F9"/>
+  <text class="title" x="900" y="62">copyagent custom C — 3 refined variants</text>
+  <text class="subtitle" x="900" y="94">A 更简洁 · B 更立体 · C 更系统感</text>
+
+  <g transform="translate(160 150)">
+    <g filter="url(#cardShadow)"><rect width="420" height="420" rx="96" fill="url(#bgMinimal)"/></g>
+    <g clip-path="url(#squircle)"><rect width="420" height="420" fill="url(#aurora)"/><path d="M49 107C139 30 274 42 376 105C255 79 159 103 91 181C40 241 25 323 29 392C-4 278-2 150 49 107Z" fill="#fff" opacity=".12"/></g>
+    <g filter="url(#glyphSoft)">
+      <path d="M255 127C213 106 160 107 117 131C64 161 32 215 32 289C32 363 64 417 117 447C161 472 215 472 258 449C275 440 296 445 307 461L323 485C269 526 190 536 121 504C39 466-12 385-12 289C-12 193 39 112 121 74C190 42 269 53 323 95L306 119C294 136 273 136 255 127Z" transform="translate(60 -8)" fill="url(#cMinimal)"/>
+      <path d="M251 128C210 107 159 107 117 131C64 161 32 215 32 289" transform="translate(60 -8)" class="shine" stroke-width="6"/>
+      <path d="M333 180C265 161 204 180 158 232" class="stroke" stroke="#fff" stroke-width="6" opacity=".34"/>
+    </g>
+    <circle cx="337" cy="230" r="11" class="dot"/>
+    <text class="name" x="210" y="492">A · Minimal Portal</text><text class="desc" x="210" y="522">更干净，小尺寸更稳</text>
+  </g>
+
+  <g transform="translate(690 150)">
+    <g filter="url(#cardShadow)"><rect width="420" height="420" rx="96" fill="url(#bgDim)"/></g>
+    <g clip-path="url(#squircle)"><rect width="420" height="420" fill="url(#aurora)"/><path d="M50 315C146 249 244 239 389 278C286 280 193 315 88 397C72 375 59 347 50 315Z" fill="#38BDF8" opacity=".18"/><path d="M305 6C371 60 413 143 421 235C363 158 292 110 197 93C238 52 276 24 305 6Z" fill="#A78BFA" opacity=".2"/></g>
+    <g filter="url(#glyphDeep)">
+      <path d="M261 117C214 92 154 94 105 122C43 158 5 221 5 306C5 392 43 455 105 490C155 519 216 518 264 491C284 480 309 486 322 505L342 535C280 586 184 600 103 561C7 516-51 420-51 306C-51 192 7 96 103 52C184 14 282 29 345 82L323 113C309 132 283 129 261 117Z" transform="translate(72 -26)" fill="url(#cDim)"/>
+      <path d="M251 196C221 182 184 185 154 203C112 229 86 268 86 324C86 380 112 419 154 445C185 463 223 463 254 447C267 440 284 443 293 455L307 475C267 508 204 516 151 491C88 462 50 399 50 324C50 249 88 186 151 157C204 132 268 142 309 176L294 196C285 209 268 204 251 196Z" fill="#071022" opacity=".34"/>
+      <path d="M123 97C193 63 277 76 331 121" class="shine" stroke-width="7"/>
+      <path d="M113 124C51 160 13 223 13 306" class="shine" stroke-width="8"/>
+    </g>
+    <path d="M70 150C150 124 235 148 312 218C356 259 395 280 437 274" class="stroke" stroke="#CFFAFE" stroke-width="18" opacity=".22" filter="url(#glow)"/>
+    <circle cx="340" cy="206" r="12" class="dot"/>
+    <text class="name" x="210" y="492">B · Liquid Glass</text><text class="desc" x="210" y="522">更 Apple 3D、质感更强</text>
+  </g>
+
+  <g transform="translate(1220 150)">
+    <g filter="url(#cardShadow)"><rect width="420" height="420" rx="96" fill="url(#bgSystem)"/></g>
+    <g clip-path="url(#squircle)"><rect width="420" height="420" fill="url(#aurora)"/><path d="M64 55H356C407 55 448 96 448 147V376C448 427 407 468 356 468H64C13 468-28 427-28 376V147C-28 96 13 55 64 55Z" fill="#fff" opacity=".05"/></g>
+    <g filter="url(#glyphSoft)">
+      <path d="M257 120C215 99 164 100 121 124C65 155 31 213 31 291C31 369 65 427 121 458C164 482 217 482 260 459C278 450 300 455 311 472L327 496C272 539 190 550 119 517C33 477-20 392-20 291C-20 190 33 105 119 65C190 32 273 44 329 88L311 114C299 131 276 130 257 120Z" transform="translate(60 -4)" fill="url(#cSystem)"/>
+      <path d="M251 120C211 100 163 101 121 124C65 155 31 213 31 291" transform="translate(60 -4)" class="shine" stroke-width="6"/>
+      <rect x="166" y="71" width="100" height="66" rx="26" fill="#E0F2FE" opacity=".8"/>
+      <path d="M185 90H247" class="shine" stroke-width="5"/>
+    </g>
+    <path d="M89 179C154 153 234 171 304 229" class="stroke" stroke="#fff" stroke-width="7" opacity=".36"/>
+    <circle cx="320" cy="225" r="10" class="dot"/>
+    <text class="name" x="210" y="492">C · System Icon</text><text class="desc" x="210" y="522">更像 macOS 工具 App</text>
+  </g>
+</svg>

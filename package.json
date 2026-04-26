@@ -1,0 +1,30 @@
+{
+  "name": "copyagent",
+  "version": "0.1.0",
+  "description": "Lightweight local-first clipboard and remote workflow agent for macOS.",
+  "type": "module",
+  "bin": {
+    "copyagent": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/cli.js serve"
+  },
+  "keywords": [
+    "clipboard",
+    "copy-agent",
+    "feishu",
+    "lark",
+    "bot"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.62.0"
+  },
+  "overrides": {
+    "axios": "^1.15.2"
+  }
+}

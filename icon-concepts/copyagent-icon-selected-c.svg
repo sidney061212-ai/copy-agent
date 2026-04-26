@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">copyagent selected icon concept</title>
+  <desc id="desc">Apple-style macOS icon with aurora glass background and a custom designed capital C glyph.</desc>
+  <defs>
+    <radialGradient id="backdrop" cx="34%" cy="18%" r="92%">
+      <stop offset="0" stop-color="#66F4FF"/>
+      <stop offset="0.25" stop-color="#347BFF"/>
+      <stop offset="0.58" stop-color="#34206F"/>
+      <stop offset="1" stop-color="#050817"/>
+    </radialGradient>
+    <radialGradient id="auroraA" cx="20%" cy="12%" r="90%">
+      <stop offset="0" stop-color="#B7FFF4" stop-opacity="0.92"/>
+      <stop offset="0.28" stop-color="#2DE7FF" stop-opacity="0.52"/>
+      <stop offset="0.72" stop-color="#7C3AED" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auroraB" cx="76%" cy="82%" r="78%">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.72"/>
+      <stop offset="0.38" stop-color="#1D4ED8" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cStroke" x1="190" y1="180" x2="790" y2="835" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.24" stop-color="#D6FBFF"/>
+      <stop offset="0.52" stop-color="#70E8FF"/>
+      <stop offset="0.74" stop-color="#8A7CFF"/>
+      <stop offset="1" stop-color="#E9D5FF"/>
+    </linearGradient>
+    <linearGradient id="cInner" x1="280" y1="210" x2="745" y2="765" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.78"/>
+      <stop offset="0.4" stop-color="#CFFAFE" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#4F46E5" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="clipTab" x1="360" y1="180" x2="650" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#A5F3FC"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="46" stdDeviation="42" flood-color="#020617" flood-opacity="0.36"/>
+    </filter>
+    <filter id="glyphShadow" x="-35%" y="-35%" width="170%" height="180%">
+      <feDropShadow dx="0" dy="30" stdDeviation="26" flood-color="#020617" flood-opacity="0.42"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#67E8F9" flood-opacity="0.28"/>
+    </filter>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <mask id="squircleMask">
+      <rect x="64" y="64" width="896" height="896" rx="214" fill="#fff"/>
+    </mask>
+  </defs>
+
+  <rect width="1024" height="1024" fill="#F8FAFC"/>
+  <g filter="url(#softShadow)">
+    <rect x="64" y="64" width="896" height="896" rx="214" fill="url(#backdrop)"/>
+  </g>
+  <g mask="url(#squircleMask)">
+    <rect x="64" y="64" width="896" height="896" rx="214" fill="url(#auroraA)"/>
+    <rect x="64" y="64" width="896" height="896" rx="214" fill="url(#auroraB)"/>
+    <path d="M133 266C280 108 528 95 743 196C579 158 412 192 300 290C194 383 141 504 120 674C93 513 62 342 133 266Z" fill="#FFFFFF" opacity="0.14"/>
+    <path d="M110 722C299 589 489 565 766 646C580 639 420 706 253 855C194 820 144 775 110 722Z" fill="#38BDF8" opacity="0.16"/>
+    <path d="M721 105C840 189 915 322 937 476C824 344 692 264 520 245C594 182 662 137 721 105Z" fill="#A78BFA" opacity="0.18"/>
+  </g>
+
+  <g filter="url(#glyphShadow)">
+    <path d="M618 268C556 236 479 233 410 263C321 301 264 386 264 508C264 629 321 715 410 754C480 784 558 781 621 748C649 733 682 743 700 769L724 804C646 869 531 889 425 851C281 800 184 670 184 508C184 346 281 216 425 165C532 127 648 148 727 214L702 250C683 277 648 284 618 268Z" fill="url(#cStroke)"/>
+    <path d="M600 347C559 326 508 323 461 341C394 367 352 429 352 508C352 588 394 650 461 676C509 695 562 691 604 668C622 658 644 664 656 681L674 707C617 753 531 768 453 739C353 703 287 611 287 508C287 405 353 313 453 277C531 248 618 263 676 310L657 337C644 354 620 357 600 347Z" fill="#050817" opacity="0.46"/>
+    <path d="M618 268C556 236 479 233 410 263C321 301 264 386 264 508" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" opacity="0.58"/>
+    <path d="M421 167C531 127 648 148 727 214" fill="none" stroke="#E0F2FE" stroke-width="7" stroke-linecap="round" opacity="0.48"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <path d="M228 344C343 295 474 322 578 419C640 477 706 512 789 506" fill="none" stroke="#CFFAFE" stroke-width="26" stroke-linecap="round" opacity="0.28"/>
+    <path d="M238 342C351 304 467 334 560 422" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+    <circle cx="792" cy="506" r="18" fill="#A3FF6A" opacity="0.92"/>
+    <circle cx="792" cy="506" r="44" fill="#A3FF6A" opacity="0.16"/>
+  </g>
+
+  <g filter="url(#glyphShadow)">
+    <path d="M401 184H623C654 184 680 210 680 241V315C680 337 662 355 640 355H384C362 355 344 337 344 315V241C344 210 370 184 401 184Z" fill="url(#clipTab)" opacity="0.92"/>
+    <path d="M397 205H627C641 205 653 217 653 231V261" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" opacity="0.56"/>
+  </g>
+
+  <rect x="68" y="68" width="888" height="888" rx="210" fill="none" stroke="#FFFFFF" stroke-width="3" opacity="0.16"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">copyagent menu bar icon from selected C app icon</title>
+  <desc id="desc">Monochrome macOS template icon preserving the selected app icon expression: custom C, clipboard tab, relay ribbon, and dot.</desc>
+  <g fill="#000000">
+    <!-- Clipboard tab from the selected app icon, simplified for menu bar template use. -->
+    <path d="M392 168H632C678 168 716 206 716 252V326C716 355 693 378 664 378H360C331 378 308 355 308 326V252C308 206 346 168 392 168ZM394 238C380 238 368 250 368 264V304C368 318 380 330 394 330H630C644 330 656 318 656 304V264C656 250 644 238 630 238H394Z"/>
+
+    <!-- The same bespoke uppercase C expression from the app icon, flattened to a bold template silhouette. -->
+    <path fill-rule="evenodd" d="M617 288C558 256 484 253 418 282C332 320 276 404 276 512C276 621 332 705 418 742C485 771 560 768 620 736C655 717 699 728 722 762L756 812C671 887 542 912 423 869C267 812 164 672 164 512C164 352 267 212 423 155C544 111 675 137 761 214L724 268C699 305 656 309 617 288ZM592 376C558 358 513 355 473 371C420 392 388 444 388 512C388 580 420 632 473 653C514 670 560 666 595 647C624 631 660 639 680 666L700 693C642 748 552 768 473 736C382 699 324 613 324 512C324 411 382 325 473 288C552 256 642 276 702 331L681 358C660 385 623 392 592 376Z"/>
+
+    <!-- Relay ribbon crossing behind/through the C, preserved from the selected icon but thickened for 16px readability. -->
+    <path d="M224 348C320 307 429 311 532 378C574 405 612 436 650 463C700 498 750 523 812 518C840 516 864 536 866 564C868 592 847 616 819 618C724 625 653 587 592 545C552 518 515 487 477 463C403 416 331 411 263 440C238 451 209 439 198 414C188 389 199 359 224 348Z"/>
+
+    <!-- Incoming/local relay dot from the selected icon. -->
+    <circle cx="812" cy="518" r="42"/>
+  </g>
+</svg>
